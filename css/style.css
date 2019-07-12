@@ -1,6 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 h1 {
-  text-align: center;
-  color: #e600e6;
+  font-size: 6rem;
+  font-family: "Orbitron", sans-serif;
+  color: #003366;
+}
+
+.padding {
+  padding-left: 0.3rem;
+}
+
+.flex {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.border {
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+  border: 9px solid black;
+  border-radius: 18px;
+  background-color: #B6B2A9;
 }
 
 /*# sourceMappingURL=style.css.map */
