@@ -1,4 +1,7 @@
 let d = new Date();
+
+
+//put these variables inside fucntion to they update every time?
 let hours = d.getHours();
 let minutes = d.getMinutes();
 let sec = d.getSeconds();
